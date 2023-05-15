@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQA">
+  <test thread-count="5" name="TestDemoQA">
+    <classes>
+      <class name="com.demoqa.testcases.InteractionsTest"/>
+      <class name="com.demoqa.testcases.WidgetsTest"/>
+      <class name="com.demoqa.testcases.FormsTest"/>
+      
+      <class name="com.demoqa.testcases.ElementsTest"/>
+      <class name="com.demoqa.testcases.AlertsTest"/>
+    </classes>
+  </test> <!-- TestDemoQA -->
+</suite> <!-- DemoQA -->
